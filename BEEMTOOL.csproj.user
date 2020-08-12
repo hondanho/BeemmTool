@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="BEMMTOOL\AboutMe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BEMMTOOL\DONATE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BEMMTOOL\gialap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BEMMTOOL\loading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BEMMTOOL\naptienvaomay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BEMMTOOL\SimplaButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="BEMMTOOL\SimplaCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="BEMMTOOL\SimplaControlBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="BEMMTOOL\SimplaProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="BEMMTOOL\SimplaRadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="BEMMTOOL\SimplaTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="BEMMTOOL\SimplaTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="BEMMTOOL\SimplaTheme.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="BEMMTOOL\thietlapkeyrentcode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BEMMTOOL\thongbao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BEMMTOOL\thongbao2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BEMMTOOL\thongbao3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BEMMTOOL\thongbaochinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BEMMTOOL\trangchu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

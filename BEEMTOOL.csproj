@@ -1,0 +1,95 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>BEEMTOOL</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net451</TargetFramework>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <StartupObject>BEMMTOOL.My.MyApplication</StartupObject>
+    <RootNamespace>BEEMTOOL</RootNamespace>
+    <Win32Resource></Win32Resource>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="BEEMTOOL.sln" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="84.0.4147.3001" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic">
+      <HintPath>package\Microsoft.VisualBasic.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp">
+      <HintPath>package\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>package\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver">
+      <HintPath>package\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>package\System.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="KAutoHelper">
+      <HintPath>package\KAutoHelper.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="BEMMTOOL\AboutMe.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>AboutMe.cs</DependentUpon>
+    </Compile>
+    <Compile Update="BEMMTOOL\DONATE.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>DONATE.cs</DependentUpon>
+    </Compile>
+    <Compile Update="BEMMTOOL\gialap.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>gialap.cs</DependentUpon>
+    </Compile>
+    <Compile Update="BEMMTOOL\loading.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>loading.cs</DependentUpon>
+    </Compile>
+    <Compile Update="BEMMTOOL\naptienvaomay.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>naptienvaomay.cs</DependentUpon>
+    </Compile>
+    <Compile Update="BEMMTOOL\thietlapkeyrentcode.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>thietlapkeyrentcode.cs</DependentUpon>
+    </Compile>
+    <Compile Update="BEMMTOOL\thongbao2.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>thongbao2.cs</DependentUpon>
+    </Compile>
+    <Compile Update="BEMMTOOL\thongbaochinh.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>thongbaochinh.cs</DependentUpon>
+    </Compile>
+    <Compile Update="BEMMTOOL\trangchu.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>trangchu.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+  </ItemGroup>
+</Project>
